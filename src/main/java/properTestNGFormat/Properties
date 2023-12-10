@@ -1,0 +1,4 @@
+url=http://teststore.automationtesting.co.uk/login?back=my-account
+browser=chrome
+email=test@test.com
+password=test123

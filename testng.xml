@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!--  <classes>
+     
+      <class name="testNG.testTestNG3"/>
+      <class name="testNG.TestTestNG2"/>
+      <class name ="testNG.TestNGTest4"/>
+    </classes>    -->
+    
+    
+   <!-- <packages>
+    	<package name="testNG"/>
+    </packages> -->
+    
+    
+ <!--   <classes>
+    	
+    		<class name = "testNG.TestNGTest4" >
+    		<methods>
+    			<include name="test6"/>
+    		</methods>
+    	
+    	</class>
+    
+    </classes>  -->
+    
+    
+  <!--  <classes>
+    	<class name = "testNG.TestNGTest4">
+    	   <methods>
+    	   		<exclude name="test6"/>
+    	   </methods>
+    	
+    	
+    	</class>
+    
+    </classes>  -->
+    
+   <!-- <classes>
+    		<class name ="testNG.TestNGTest4">
+    				<methods>
+    					<include name = "test.*"/>
+    					
+    				</methods>
+    		
+    		</class>
+    
+    </classes> -->
+    
+  <!--  <classes>
+    <class name ="testNG.Annotations">
+    
+    </class>
+    
+    </classes>
+    
+     -->
+   <!--  <groups>
+     	<run>
+     		<include name = "Smoke"/>
+     	</run>
+     
+     </groups>
+     
+     <classes>
+     	<class name = "testNG.TestNGTest4"/>
+     	<class name ="testNG.TestTestNG2"/>
+     
+     </classes> -->
+     
+     
+  <!--   <parameters>
+     
+     <parameter name = "login" value = "teststore@gmail.com"/> 
+     <parameter name = "password" value = "teststore@gmail.com"/>    
+     </parameters>
+     
+          <classes>
+     	<class name = "testNG.Parameters"/>
+     
+     </classes>   -->
+     
+     
+ <!--    <classes>
+     	<class name = "testNG.DataProvider1"/>
+     </classes>
+   -->  
+   
+   <!--<classes>
+     	<class name = "testNG.DependsonMethod"/>
+     </classes>
+     
+     -->
+ <!--  <classes>
+     	<class name = "testNG.Enabled"/>
+     </classes>  -->
+     
+     <classes>
+     	<class name = "testNG.Assert1"/>
+     </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
